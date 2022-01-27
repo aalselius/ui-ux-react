@@ -1,0 +1,60 @@
+
+
+img {
+  height: 90vh;
+  width: 1700px;
+}
+
+.parallax-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center;
+}
+
+.parallax-content h1 {
+  font-size: 70px;
+}
+
+.parallax-content h3 {
+  font-size: 20px;
+}
+
+.parallax-content button {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 25px;
+}
+
+.parallax-content button:hover {
+  background-color: orange;
+  border: 2px solid white;
+  color: white;
+}
+
+.bottom-content p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-content {
+  background-color: #ff5500;
+}
+
+.footer-content p {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.footer-content h4 {
+  text-align: center;
+  color: white;
+}

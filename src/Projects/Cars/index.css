@@ -1,0 +1,40 @@
+.cars-parent {
+  background-color: black;
+  height: 100vh;
+}
+
+.cars-parent img {
+  width: 100%;
+  height: auto;
+  transform: rotate(18deg);
+}
+
+.part-2 {
+  transform: scaleX(-1);
+}
+
+.text-separator {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 70px;
+  text-shadow: 2px 2px 15px rgb(209, 208, 208);
+}
+
+.cars-text {
+  color: white;
+  font-size: 70px;
+  text-shadow: 2px 2px 15px rgb(209, 208, 208);
+  text-align: center;
+  margin-top: 150px;
+}
+
+@media  screen and (max-width: 600px) {
+  .cars-parent {
+    height: max-content;
+  } 
+}

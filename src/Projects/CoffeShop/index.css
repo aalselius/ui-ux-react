@@ -1,0 +1,49 @@
+.coffeshop-parent {
+  height: 100vh;
+  background-color: #333031;
+}
+
+.coffeeshop-text-part h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.coffeeshop-text-part h1 b {
+  color: yellow;
+}
+
+.coffeeshop-text-part h2 {
+  color: white ;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.596);
+}
+
+.coffeeshop-text-part h2 b {
+  color: #a23834;
+}
+
+.coffeeshop-text-part p {
+  font-size: 16px;
+}
+
+.coffee-cup {
+  z-index: 2;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #58908d;
+  clip-path: circle(40% at 90% 100%);
+}
+
+@media screen and (max-width: 600px) {
+  .coffeshop-parent {
+    height: max-content;
+  }
+  .circle { 
+    display: none;
+  }
+}
